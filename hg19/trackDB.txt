@@ -52,7 +52,7 @@ type bigBed 12 +
 exonArrows on
 exonNumbers on
 itemRgb on
-bigDataUrl https://github.com/kalmSveta/panhandles/blob/master/hg19/alignments_whole_human_genome.bb
+bigDataUrl https://github.com/kalmSveta/panhandles/blob/master/hg19/alignments_whole_human_genome.bb?raw=true
 shortLabel panhandles_new_version
 longLabel panhandles new version                                     
 
