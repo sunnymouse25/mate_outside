@@ -1,0 +1,5 @@
+hub mate_outside
+shortLabel mate_outside
+longLabel mate_outside_and_inside
+genomesFile genomes.txt
+email sunnymouse25@gmail.com

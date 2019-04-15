@@ -1,0 +1,60 @@
+track all_inside_outside
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+bigDataUrl all_SE.bb
+shortLabel all_inside_outside
+longLabel all mate_inside and mate_outside w. dist<20k  
+
+
+track all_single_inside_outside
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+bigDataUrl all_SE.single.bb
+shortLabel all_single_inside_outside
+longLabel all mate_inside and mate_outside w. dist<20k, single line   
+
+track both_annot
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+bigDataUrl both_annot.bb
+shortLabel both_annot
+longLabel both mate_inside and mate_outside w. annotated ss, dist<30k  
+
+
+track both_annot_single
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+bigDataUrl both_annot.single.bb
+shortLabel both_annot_single
+longLabel both mate_inside and mate_outside w. annotated ss, w. dist<30k, single line   
+
+
+track panhandles_old_version
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+bigDataUrl panhandles.bb
+shortLabel panhandles_old_version
+longLabel panhandles old version                                     
+
+
+track panhandles_new_version
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+bigDataUrl https://github.com/kalmSveta/panhandles/blob/master/hg19/alignments_whole_human_genome.bb
+shortLabel panhandles_new_version
+longLabel panhandles new version                                     
+
+
+track all_circles
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+bigDataUrl all_circles.bb
+shortLabel all_circles
+longLabel all circles, dist<100k  
