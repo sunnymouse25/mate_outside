@@ -3,7 +3,7 @@ type bigBed 12 +
 exonArrows on
 exonNumbers on
 itemRgb on
-bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/1.0/all_SE.bb
+bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/2.0/all_SE.bb
 shortLabel all_inside_outside
 longLabel all mate_inside and mate_outside w. dist<20k  
 
@@ -13,7 +13,7 @@ type bigBed 12 +
 exonArrows on
 exonNumbers on
 itemRgb on
-bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/1.0/all_SE.single.bb
+bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/2.0/all_SE.single.bb
 shortLabel all_single_inside_outside
 longLabel all mate_inside and mate_outside w. dist<20k, single line   
 
@@ -22,7 +22,7 @@ type bigBed 12 +
 exonArrows on
 exonNumbers on
 itemRgb on
-bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/1.0/both_annot.bb
+bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/2.0/both_annot.bb
 shortLabel both_annot
 longLabel both mate_inside and mate_outside w. annotated ss, dist<30k  
 
@@ -32,7 +32,7 @@ type bigBed 12 +
 exonArrows on
 exonNumbers on
 itemRgb on
-bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/1.0/both_annot.single.bb
+bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/2.0/both_annot.single.bb
 shortLabel both_annot_single
 longLabel both mate_inside and mate_outside w. annotated ss, w. dist<30k, single line   
 
@@ -42,7 +42,7 @@ type bigBed 12 +
 exonArrows on
 exonNumbers on
 itemRgb on
-bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/1.0/panhandles.bb
+bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/2.0/panhandles.bb
 shortLabel panhandles_old_version
 longLabel panhandles old version                                     
 
@@ -62,6 +62,26 @@ type bigBed 12 +
 exonArrows on
 exonNumbers on
 itemRgb on
-bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/1.0/all_circles.bb
+bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/2.0/all_circles.bb
 shortLabel all_circles
 longLabel all circles, dist<100k  
+
+
+track annot
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+itemRgb on
+bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/2.0/annot.bb
+shortLabel annot
+longLabel both mate_inside and mate_outside, donor or acceptor are in annotation
+
+
+track zhang2014
+type bigWig
+exonArrows on
+exonNumbers on
+itemRgb on
+bigDataUrl https://github.com/sunnymouse25/mate_outside/releases/download/2.0/GSM1480599_H9_pAminus.bw
+shortLabel zhang2014
+longLabel zhang2014, polyA- fraction
